@@ -6,6 +6,8 @@
 
 Branche 생성
 - git checkout -b 브랜치명
+Branche 푸시 
+- git push -u origin 브랜치이름
 
 Merge 취소 
 - git merge --abort
@@ -19,5 +21,8 @@ Tag 반영
 
 Tag 목록
 - git ls-remote --tags origin
+
+
+
 
 ```
