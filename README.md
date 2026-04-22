@@ -23,6 +23,10 @@ Tag 목록
 - git ls-remote --tags origin
 
 
-
+커밋 취소 
+- hard : unstaged 상태의 변경 사항을 모두 제거
+- soft 커밋되지 않은 변경사항이 손실되지 않음
+- git reset --[hard,soft] HEAD~1
+- git revert <되돌리고 싶은 커밋 이름>
 
 ```
