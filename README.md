@@ -29,4 +29,14 @@ Tag 목록
 - git reset --[hard,soft] HEAD~1
 - git revert <되돌리고 싶은 커밋 이름>
 
+원격 로컬 history 충돌시 
+원격(main): A --- B --- C
+                 \
+로컬(main):        D --- E
+- git pull --rebase origin main
+- git push
+    or
+- git add .
+- git rebase --continue
+
 ```
